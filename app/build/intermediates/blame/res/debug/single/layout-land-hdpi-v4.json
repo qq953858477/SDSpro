@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\activity_login.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\item_interest.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\item_interest.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\item_stock22.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\item_stock22.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\buy.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\buy.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\module_calendar.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\module_calendar.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\fragment_jinrijiaoyi.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\fragment_jinrijiaoyi.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\test.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\test.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\item_stock.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\item_stock.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\fragment_main.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\fragment_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\item_history_info.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\item_history_info.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\sale.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\sale.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\fragment_interest.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\fragment_interest.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\module_history.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\module_history.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\fragment_historystatistics.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\fragment_historystatistics.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\activity_main.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\fragment_buy_sale.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\fragment_buy_sale.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-hdpi-v4\\fragement_stockinfo.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-hdpi\\fragement_stockinfo.xml"
+    }
+]

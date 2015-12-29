@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#969696"
+        android:orientation="horizontal"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#3a3a3a"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/interes_stock_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:textColor="#ededed"
+                    android:textSize="10dp"
+                    android:text="岳阳长兴" />
+
+                <TextView
+                    android:id="@+id/interes_stock_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="000891"
+                    android:textColor="#b9b9b9"
+                    android:textSize="6dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/interest_stock_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8dp"
+                    android:textColor="#b9b9b9"
+                    android:text="3000股" />
+            </LinearLayout>
+
+        </LinearLayout>
+		<RelativeLayout  
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            
+		   
+		    
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#3a3a3a"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="0.3"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/interest_buy"
+                    android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#4281c4"
+                    android:background="#4c4c4c"
+                    android:textSize="10dp"
+                    android:text="@string/item_interest_buy" />
+
+                <TextView
+                    android:id="@+id/interrst_sale"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:gravity="center"
+                     android:textColor="#8b5642"
+                     android:background="#4c4c4c"
+                     android:textSize="10dp"
+                    android:text="@string/item_interest_sale" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/buying_price"
+                    android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="6dp"
+                    android:textColor="#c9c9c9"
+                    android:text="40.34元" />
+
+                <TextView
+                    android:id="@+id/saleing_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:gravity="center"
+                     android:textSize="6dp"
+                     android:textColor="#c9c9c9"
+                    android:text="43.44元" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/start_time"
+                    android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="6dp"
+                    android:textColor="#c9c9c9"
+                    android:text="09:30:33" />
+
+                <TextView
+                    android:id="@+id/end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:textColor="#c9c9c9"
+                     android:gravity="center"
+                     android:textSize="6dp"
+                    android:text="10:10:10" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/revoke_time"
+                    android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#c9c9c9"
+                    android:gravity="center"
+                    android:textSize="6dp"
+                    android:drawableLeft="@drawable/ico41"
+                    android:text="10秒后撤点" />
+
+                <TextView
+                    android:id="@+id/make_bargain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:textColor="#c9c9c9"
+                     android:gravity="center"
+                     android:textSize="6dp"
+                    android:text="已成交" />
+
+            </LinearLayout>
+            
+                
+        </LinearLayout>
+         <TextView 
+		    android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#000000"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+		        ></TextView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" 
+            android:gravity="center"
+            android:background="#303030"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#c9c9c9"
+                android:textSize="9dp"
+                android:text="@string/item_interest_profit" />
+
+            <TextView
+                android:id="@+id/profit_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#cc4040"
+                android:layout_weight="1"
+                android:textSize="9dp"
+                android:text="+100000元" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\app\SDSpro\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="D:\Android\app\SDSpro\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14_3f32635a0e6c93e4aaba0af8b89a5d6a9dacb67a.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\SDSpro\app\libs\core.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="96b67e377ff4637ff1fa3bbe9ad7183773935f39">
+        <dex dex="D:\Android\app\SDSpro\app\build\intermediates\pre-dexed\debug\core_111c53035e6b9ef8fd1269d653e6b9cb693ef5dd.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\SDSpro\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\Android\app\SDSpro\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.1_b9446f45241ade074d4f4f59ccfb8d1f50f33edc.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\Android\app\SDSpro\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1_db1bb2a3f1608a31c38a2d1f5698fe71cc45038a.jar" />
+    </item>
+    <item
+        jar="C:\Users\zzy\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\Android\app\SDSpro\app\build\intermediates\pre-dexed\debug\gson-2.2.4_1bba7ce6796e97cea4212d154f370bbeb80c712c.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\SDSpro\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\Android\app\SDSpro\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1_8700cac96dbd351df8d4ba74f5d97c1a9f026e52.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\SDSpro\app\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="D:\Android\app\SDSpro\app\build\intermediates\pre-dexed\debug\volley_3623fd75f274770d250fb37396363221848da67b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-tvdpi-v4\\sale.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-tvdpi\\sale.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-tvdpi-v4\\stock_operation_itme.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-tvdpi\\stock_operation_itme.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-tvdpi-v4\\activity_main.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-tvdpi\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-tvdpi-v4\\activity_login.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-tvdpi\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-tvdpi-v4\\transaction_record.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-tvdpi\\transaction_record.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-tvdpi-v4\\inventory_grid.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-tvdpi\\inventory_grid.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-tvdpi-v4\\buy.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-tvdpi\\buy.xml"
+    }
+]

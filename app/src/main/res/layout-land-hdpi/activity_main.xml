@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.xinyusoft.sdspro.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:padding="8dp"
+        android:background="#1e1e1e" >
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_launcher" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/iv_head"
+            android:layout_centerHorizontal="true"	
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radioShipan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/tab_shipan"
+                android:gravity="center"
+                android:text="实盘"
+                android:textColor="@drawable/radio_text"
+                android:textSize="8dp" />
+
+            <RadioButton
+                android:id="@+id/radioJinritongji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/tab_jinritongji"
+                android:gravity="center"
+                android:text="今日统计"
+                android:textColor="@drawable/radio_text"
+                android:textSize="8dp" />
+
+            <RadioButton
+                android:id="@+id/radioLishishuju"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/tab_lishishuju"
+                android:gravity="center"
+                android:text="历史数据"
+                android:textColor="@drawable/radio_text"
+                android:textSize="8dp" />
+
+            <RadioButton
+                android:id="@+id/radioSetting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/tab_setting"
+                android:gravity="center"
+                android:text="设置"
+                android:textColor="@drawable/radio_text"
+                
+                android:textSize="8dp" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@+id/relativeLayout1" >
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="calendar_default_color">#4e4e4e</color>
+    <color name="calendar_peressed_color">#8e8e8e</color>
+    <color name="change_font_color">#c9c9c9</color>
+    <color name="fixed_font_color">#a4a4a4</color>
+    <color name="green_kuishun">#22ac38</color>
+    <color name="history_bg">#2c2c2c</color>
+    <color name="history_bukuibuying">#787575</color>
+    <color name="money_color">#cc4040</color>
+    <color name="red_shouyi">#cc4040</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="history_calendar_height">28dp</dimen>
+    <dimen name="history_font_size">8sp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SDSpro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="item_interest_buy">买入</string>
+    <string name="item_interest_profit">盈亏</string>
+    <string name="item_interest_sale">卖出</string>
+    <string name="item_interest_taoli">今日套利指令</string>
+    <string name="item_mai_mai">买卖五档</string>
+    <string name="item_stock_allcount">总数量：</string>
+    <string name="item_stock_jiaoyilliang">交易量：</string>
+    <string name="item_stock_shizhi">市值：</string>
+    <string name="item_stock_yikui">盈亏：</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

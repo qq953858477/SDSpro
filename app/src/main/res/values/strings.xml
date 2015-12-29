@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SDSpro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="item_stock_allcount">总数量：</string>
+    <string name="item_stock_shizhi">市值：</string>
+    <string name="item_stock_jiaoyilliang">交易量：</string>
+    <string name="item_stock_yikui">盈亏：</string>
+    <string name="item_interest_taoli">今日套利指令</string>
+    <string name="item_interest_buy">买入</string>
+    <string name="item_interest_sale">卖出</string>
+    <string name="item_interest_profit">盈亏</string>
+    <string name="item_mai_mai">买卖五档</string>
+
+</resources>

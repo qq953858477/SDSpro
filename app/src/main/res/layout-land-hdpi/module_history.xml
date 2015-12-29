@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/histroy_Collect"
+    android:layout_width="172dp"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/history_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#1a1a1a"
+            android:gravity="center_vertical"
+            android:paddingLeft="6dp"
+            android:text="统计汇总"
+            android:textColor="#c9c9c9"
+            android:textSize="@dimen/history_font_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#1a1a1a"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="统计时间段:"
+                android:textColor="#c9c9c9"
+                android:textSize="@dimen/history_font_size" />
+
+            <TextView
+                android:id="@+id/history_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="6dp"
+                android:text="2015年1月20号"
+                android:textColor="#c9c9c9"
+                android:textSize="@dimen/history_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#1a1a1a"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView3"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="胜率:"
+                android:textColor="#c9c9c9"
+                android:textSize="@dimen/history_font_size" />
+
+            <TextView
+                android:id="@+id/history_shenglv"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:text="86.79%"
+                android:textColor="@color/red_shouyi"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#242424"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView4"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="套利次数:"
+                android:textColor="#c9c9c9"
+                android:textSize="@dimen/history_font_size" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:id="@+id/history_taoliNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:text="106次"
+                    android:textColor="#c9c9c9"
+                    android:textSize="@dimen/history_font_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="tu" >
+                </TextView>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#242424"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView5"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="盈:"
+                android:textColor="#c9c9c9"
+                android:textSize="@dimen/history_font_size" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:id="@+id/history_win"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:text="106次"
+                    android:textColor="@color/red_shouyi"
+                    android:textSize="@dimen/history_font_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="tu" >
+                </TextView>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#242424"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView6"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="亏:"
+                android:textSize="@dimen/history_font_size" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:id="@+id/history_fail"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:text="106次"
+                    android:textColor="@color/green_kuishun"
+                    android:textSize="@dimen/history_font_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="tu" >
+                </TextView>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#1a1a1a"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView7"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="收益:"
+                android:textColor="#c9c9c9"
+                android:textSize="@dimen/history_font_size" />
+
+            <TextView
+                android:id="@+id/history_shouyi"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="6dp"
+                android:text="12.34万元"
+                android:textColor="@color/red_shouyi"
+                android:textSize="@dimen/history_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#1a1a1a"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView8"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="盈:"
+                android:textColor="#c9c9c9"
+                android:textSize="@dimen/history_font_size" />
+
+            <TextView
+                android:id="@+id/history_ying_money"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="6dp"
+                android:text="12.53万元"
+                android:textColor="@color/red_shouyi"
+                android:textSize="@dimen/history_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#1a1a1a"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView9"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="收益:"
+                android:textColor="#c9c9c9"
+                android:textSize="@dimen/history_font_size" />
+
+            <TextView
+                android:id="@+id/history_kui_money"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="6dp"
+                android:text="0.34万元"
+                android:textColor="@color/green_kuishun"
+                android:textSize="@dimen/history_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#242424"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="交易量:"
+                android:textColor="#928f8f"
+                android:textSize="@dimen/history_font_size" />
+
+            <TextView
+                android:id="@+id/history_jiaoyiliang"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="6dp"
+                android:text="124.45万元"
+                android:textColor="#e1e1e1"
+                android:textSize="@dimen/history_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#242424"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dp"
+                android:text="测单次数:"
+                android:textColor="#928f8f"
+                android:textSize="@dimen/history_font_size" />
+
+            <TextView
+                android:id="@+id/history_cedancishu"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="6dp"
+                android:text="12次"
+                android:textColor="#e1e1e1"
+                android:textSize="@dimen/history_font_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

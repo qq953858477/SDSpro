@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_jinritongji.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\drawable\\tab_jinritongji.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_lishishuju.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\drawable\\tab_lishishuju.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_setting.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\drawable\\tab_setting.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_selector.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\drawable\\calendar_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_interest.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\drawable\\border_interest.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_yuan_morelist.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\drawable\\view_yuan_morelist.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_shipan.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\drawable\\tab_shipan.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_text.xml",
+        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\drawable\\radio_text.xml"
+    }
+]

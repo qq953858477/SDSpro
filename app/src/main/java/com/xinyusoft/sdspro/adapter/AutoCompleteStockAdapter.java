@@ -1,4 +1,4 @@
-package com.xinyusoft.sdspro;
+package com.xinyusoft.sdspro.adapter;
 
 import android.content.Context;
 import android.util.Log;
@@ -16,7 +16,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.xinyusoft.sdspro.Application.SDSproContext;
-import com.xinyusoft.sdspro.bean.AutoCompleteStock;
+import com.xinyusoft.sdspro.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -30,18 +30,18 @@ import java.util.concurrent.CountDownLatch;
  * Created by zzy on 2015/12/31.
  * 自动提示的适配器
  */
-public class TestAdapter extends ArrayAdapter<AutoCompleteStock> implements Filterable {
+public class AutoCompleteStockAdapter extends ArrayAdapter<com.xinyusoft.sdspro.bean.AutoCompleteStock> implements Filterable {
     private Context ctx;
-    private List<AutoCompleteStock> cityList = new ArrayList<AutoCompleteStock>();
+    private List<com.xinyusoft.sdspro.bean.AutoCompleteStock> cityList = new ArrayList<com.xinyusoft.sdspro.bean.AutoCompleteStock>();
 
-    public TestAdapter(Context ctx, List<AutoCompleteStock> cityList) {
+    public AutoCompleteStockAdapter(Context ctx, List<com.xinyusoft.sdspro.bean.AutoCompleteStock> cityList) {
         super(ctx, R.layout.item_autocomplete_adapter, cityList);
         this.cityList = cityList;
         this.ctx = ctx;
     }
 
     @Override
-    public AutoCompleteStock getItem(int position) {
+    public com.xinyusoft.sdspro.bean.AutoCompleteStock getItem(int position) {
         if (cityList != null)
             return cityList.get(position);
         return null;
@@ -95,7 +95,7 @@ public class TestAdapter extends ArrayAdapter<AutoCompleteStock> implements Filt
                 FilterResults results = new FilterResults();
                 if (constraint == null || constraint.length() < 2)
                     return results;
-                List<AutoCompleteStock> cityResultList = changeAutoComplete(constraint.toString());
+                List<com.xinyusoft.sdspro.bean.AutoCompleteStock> cityResultList = changeAutoComplete(constraint.toString());
 
 
                 results.values = cityResultList;
@@ -119,8 +119,8 @@ public class TestAdapter extends ArrayAdapter<AutoCompleteStock> implements Filt
      *
      * @param s
      */
-    private List<AutoCompleteStock> changeAutoComplete(CharSequence s) {
-        final List<AutoCompleteStock> dataList = new ArrayList<>();
+    private List<com.xinyusoft.sdspro.bean.AutoCompleteStock> changeAutoComplete(CharSequence s) {
+        final List<com.xinyusoft.sdspro.bean.AutoCompleteStock> dataList = new ArrayList<>();
         //异步转成同步的方法
         final CountDownLatch latch = new CountDownLatch(1);
 
@@ -137,7 +137,7 @@ public class TestAdapter extends ArrayAdapter<AutoCompleteStock> implements Filt
                     for (int i = 0; i < array.length(); i++) {
                         JSONObject stock = array.getJSONObject(i);
                         Log.i("zzy", "name:" + stock.getString("name") + "----symbol:" + stock.getString("symbol"));
-                        dataList.add(new AutoCompleteStock(stock.getString("name"), stock.getString("symbol")));
+                        dataList.add(new com.xinyusoft.sdspro.bean.AutoCompleteStock(stock.getString("name"), stock.getString("symbol")));
                         latch.countDown();
                     }
                 } catch (JSONException e) {

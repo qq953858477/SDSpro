@@ -41,12 +41,12 @@
             android:textColor="@color/change_font_color"
             android:textSize="@dimen/history_font_size" />
 
-        <TextView
-            android:id="@+id/textView4"
+        <ImageView
+            android:id="@+id/zxg_more"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/ico21"
+            android:src="@drawable/ico21"
             android:gravity="center" />
     </LinearLayout>
 
@@ -55,20 +55,6 @@
         android:layout_height="0.1dp"
         android:layout_marginTop="7dp"
         android:background="#2c2c2c" />
-
-    <!--
-    <ListView
-        android:id="@+id/fragment_stock_list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="7dp"
-        android:layout_marginLeft="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginTop="7dp"
-        android:divider="#00000000"
-        android:dividerHeight="10dp" >
-    </ListView>
-    -->
 
     <com.baoyz.swipemenulistview.SwipeMenuListView
         android:id="@+id/fragment_stock_list"

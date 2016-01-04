@@ -10,6 +10,7 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -151,6 +152,8 @@ public class AutoCompleteStockAdapter extends ArrayAdapter<com.xinyusoft.sdspro.
                 Log.i("zzy", "VolleyError:" + volleyError);
             }
         });
+        //设置超时时间为3秒
+        request.setRetryPolicy(new DefaultRetryPolicy(3 * 1000, 1, 1.0f));
         queue.add(request);
         try {
             latch.await();

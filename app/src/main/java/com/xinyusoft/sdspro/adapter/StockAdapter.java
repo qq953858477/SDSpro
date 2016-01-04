@@ -1,7 +1,5 @@
 package com.xinyusoft.sdspro.adapter;
 
-import java.util.List;
-
 import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,11 +14,13 @@ import android.widget.TextView;
 import com.xinyusoft.sdspro.R;
 import com.xinyusoft.sdspro.bean.Stock;
 
+import java.util.List;
+
 public class StockAdapter extends ArrayAdapter<Stock> {
 
 	private int resourceId;
 	private List<Stock> stockLists;
-
+	private int mSelect = -1;  //选中的项
 	private boolean isShowDelete;
 
 	public StockAdapter(Context context, int textViewResourceId, List<Stock> objects) {
@@ -64,6 +64,12 @@ public class StockAdapter extends ArrayAdapter<Stock> {
 			holder = (ViewHolder) view.getTag();
 		}
 
+		if (mSelect == position) {
+			view.setBackgroundResource(R.drawable.view_yuan_morelist_selected);
+		} else {
+			view.setBackgroundResource(R.drawable.view_yuan_morelist);
+		}
+
 		if (stock != null) {
 			if (isShowDelete) {
 				
@@ -91,4 +97,11 @@ public class StockAdapter extends ArrayAdapter<Stock> {
 		isShowDelete = isShow;
 	}
 
+
+	public void changeSelected(int positon){ //刷新方法
+		if(positon != mSelect){
+			mSelect = positon;
+			notifyDataSetChanged();
+		}
+	}
 }

@@ -10,6 +10,10 @@
 	<color name="green_kuishun">#22ac38</color>
 	<color name="calendar_default_color">#4e4e4e</color>
 	<color name="calendar_peressed_color">#8e8e8e</color>
+
+    <color name="calendar_default_color1">#22ac38</color>
+    <color name="calendar_peressed_color1">#cc4040</color>
+
 	<color name="money_color">#cc4040</color>
 	<color name="history_bukuibuying">#787575</color>
 	

@@ -61,6 +61,8 @@ public class StockFragment extends Fragment implements OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragement_stockinfo, container, false);
+
+
         initView();
         getZXGActionInfo();
         createSwipemenulistview();

@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class BuyOrSaleFragment extends Fragment implements OnClickListener{
 	private View view;
@@ -59,19 +60,7 @@ public class BuyOrSaleFragment extends Fragment implements OnClickListener{
 		
 		view = inflater.inflate(R.layout.fragment_buy_sale,container,false);
 		init();
-//		btn_buy = (Button) view.findViewById(R.id.btn_buy);
-//		btn_buy.setOnClickListener(new OnClickListener() {
-//
-//			@SuppressLint("NewApi")
-//			@Override
-//			public void onClick(View v) {
-//				// TODO Auto-generated method stub
-//
-//				BuyOrSaleFragmentDialog dialog = new BuyOrSaleFragmentDialog();
-//				dialog.show(getFragmentManager(), null);
-//
-//			}
-//		});
+
 		return view;
 	}
 	private void init(){
@@ -111,13 +100,63 @@ public class BuyOrSaleFragment extends Fragment implements OnClickListener{
 		stock_percentage = (TextView) view.findViewById(R.id.buy_sale_stock_percentage);
 
 
+		buy1_ll.setOnClickListener(this);
+		buy2_ll.setOnClickListener(this);
+		buy3_ll.setOnClickListener(this);
+		buy4_ll.setOnClickListener(this);
+		buy5_ll.setOnClickListener(this);
+		sale1_ll.setOnClickListener(this);
+		sale2_ll.setOnClickListener(this);
+		sale3_ll.setOnClickListener(this);
+		sale4_ll.setOnClickListener(this);
+		sale5_ll.setOnClickListener(this);
+
 
 
 
 	}
 
+	public void changeStock(String stockName,String stockCode){
+		stock_name.setText(stockName);
+		stock_code.setText(stockCode);
+	}
+
 	@Override
 	public void onClick(View v) {
+		switch (v.getId()){
+			case R.id.buy_sale_buy1_ll:
+				Toast.makeText(getActivity(),"买1",Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.buy_sale_buy2_ll:
+				Toast.makeText(getActivity(),"买2",Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.buy_sale_buy3_ll:
+				Toast.makeText(getActivity(),"买3",Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.buy_sale_buy4_ll:
+				Toast.makeText(getActivity(),"买4",Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.buy_sale_buy5_ll:
+				Toast.makeText(getActivity(),"买5",Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.buy_sale_sale1_ll:
+				Toast.makeText(getActivity(),"卖1",Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.buy_sale_sale2_ll:
+				Toast.makeText(getActivity(),"卖2",Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.buy_sale_sale3_ll:
+				Toast.makeText(getActivity(),"卖3",Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.buy_sale_sale4_ll:
+				Toast.makeText(getActivity(),"卖4",Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.buy_sale_sale5_ll:
+				Toast.makeText(getActivity(),"卖5",Toast.LENGTH_SHORT).show();
+				break;
+			default:
+				break;
+		}
 
 
 	}

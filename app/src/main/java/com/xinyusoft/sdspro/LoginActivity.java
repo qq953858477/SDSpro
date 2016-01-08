@@ -1,6 +1,5 @@
 package com.xinyusoft.sdspro;
 
-import java.lang.reflect.WildcardType;
 import java.util.Hashtable;
 
 import android.app.Activity;
@@ -13,23 +12,16 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
-import com.lidroid.xutils.HttpUtils;
-import com.lidroid.xutils.exception.HttpException;
-import com.lidroid.xutils.http.ResponseInfo;
-import com.lidroid.xutils.http.callback.RequestCallBack;
-import com.lidroid.xutils.http.client.HttpRequest;
 import com.xinyusoft.sdspro.Application.SDSproContext;
 
 public class LoginActivity extends Activity {
@@ -114,7 +106,7 @@ public class LoginActivity extends Activity {
 
 					}
 				});
-		// queue.add(stringRequest);
+//		queue.add(stringRequest);
 		Intent intent = new Intent(LoginActivity.this, MainActivity.class);
 		startActivity(intent);
 		finish();
@@ -187,5 +179,6 @@ public class LoginActivity extends Activity {
 		}
 		return newBitmap;
 	}
+
 
 }

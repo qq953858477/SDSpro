@@ -23,7 +23,7 @@
             android:textSize="@dimen/history_font_size" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/stockinfo_tv_add"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

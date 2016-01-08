@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "D:\\studiowork\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 92
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 149
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 1,
@@ -49,7 +49,26 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 543,
+                        "endColumn": 57,
+                        "endOffset": 596
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 57,
+                    "endOffset": 265
+                },
+                "from": {
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 1,
@@ -61,14 +80,33 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 212,
-                    "endColumn": 51,
-                    "endOffset": 259
+                    "startOffset": 270,
+                    "endColumn": 58,
+                    "endOffset": 324
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 602,
+                        "endColumn": 58,
+                        "endOffset": 656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 329,
+                    "endColumn": 51,
+                    "endOffset": 376
+                },
+                "from": {
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -80,14 +118,14 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 264,
+                    "startOffset": 381,
                     "endColumn": 50,
-                    "endOffset": 310
+                    "endOffset": 427
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -99,14 +137,14 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 315,
+                    "startOffset": 432,
                     "endColumn": 47,
-                    "endOffset": 358
+                    "endOffset": 475
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 1,
@@ -118,14 +156,14 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 363,
+                    "startOffset": 480,
                     "endColumn": 44,
-                    "endOffset": 403
+                    "endOffset": 520
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -137,33 +175,33 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 408,
+                    "startOffset": 525,
                     "endColumn": 53,
-                    "endOffset": 457
+                    "endOffset": 574
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 17,
                         "startColumn": 1,
-                        "startOffset": 538,
+                        "startOffset": 661,
                         "endColumn": 50,
-                        "endOffset": 587
+                        "endOffset": 710
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 462,
+                    "startOffset": 579,
                     "endColumn": 45,
-                    "endOffset": 503
+                    "endOffset": 620
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 1,
@@ -175,14 +213,14 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 508,
+                    "startOffset": 625,
                     "endColumn": 44,
-                    "endOffset": 548
+                    "endOffset": 665
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -194,14 +232,14 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 553,
+                    "startOffset": 670,
                     "endColumn": 39,
-                    "endOffset": 588
+                    "endOffset": 705
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -213,14 +251,14 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 593,
+                    "startOffset": 710,
                     "endColumn": 57,
-                    "endOffset": 646
+                    "endOffset": 763
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -232,14 +270,14 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 651,
+                    "startOffset": 768,
                     "endColumn": 55,
-                    "endOffset": 702
+                    "endOffset": 819
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -251,52 +289,52 @@
             },
             {
                 "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 707,
-                    "endColumn": 54,
-                    "endOffset": 757
-                },
-                "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 1,
-                        "startOffset": 251,
-                        "endColumn": 51,
-                        "endOffset": 301
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 762,
-                    "endColumn": 47,
-                    "endOffset": 805
-                },
-                "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 1,
-                        "startOffset": 205,
-                        "endColumn": 44,
-                        "endOffset": 248
-                    }
-                }
-            },
-            {
-                "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 810,
-                    "endColumn": 52,
-                    "endOffset": 858
+                    "startOffset": 824,
+                    "endColumn": 54,
+                    "endOffset": 874
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 257,
+                        "endColumn": 54,
+                        "endOffset": 307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 879,
+                    "endColumn": 47,
+                    "endOffset": 922
+                },
+                "from": {
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 47,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 927,
+                    "endColumn": 52,
+                    "endOffset": 975
+                },
+                "from": {
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -308,14 +346,14 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 863,
+                    "startOffset": 980,
                     "endColumn": 43,
-                    "endOffset": 902
+                    "endOffset": 1019
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -327,14 +365,14 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 907,
+                    "startOffset": 1024,
                     "endColumn": 52,
-                    "endOffset": 955
+                    "endOffset": 1072
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -346,14 +384,14 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 960,
+                    "startOffset": 1077,
                     "endColumn": 48,
-                    "endOffset": 1004
+                    "endOffset": 1121
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -365,14 +403,14 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1009,
+                    "startOffset": 1126,
                     "endColumn": 51,
-                    "endOffset": 1056
+                    "endOffset": 1173
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -384,14 +422,14 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1061,
+                    "startOffset": 1178,
                     "endColumn": 49,
-                    "endOffset": 1106
+                    "endOffset": 1223
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -403,14 +441,14 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1111,
+                    "startOffset": 1228,
                     "endColumn": 54,
-                    "endOffset": 1161
+                    "endOffset": 1278
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -422,14 +460,14 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1166,
+                    "startOffset": 1283,
                     "endColumn": 45,
-                    "endOffset": 1207
+                    "endOffset": 1324
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -441,14 +479,14 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1212,
+                    "startOffset": 1329,
                     "endColumn": 52,
-                    "endOffset": 1260
+                    "endOffset": 1377
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -460,14 +498,14 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1265,
+                    "startOffset": 1382,
                     "endColumn": 56,
-                    "endOffset": 1317
+                    "endOffset": 1434
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -479,14 +517,14 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 1322,
+                    "startOffset": 1439,
                     "endColumn": 49,
-                    "endOffset": 1367
+                    "endOffset": 1484
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -498,14 +536,14 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1372,
+                    "startOffset": 1489,
                     "endColumn": 48,
-                    "endOffset": 1416
+                    "endOffset": 1533
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -517,14 +555,14 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 1421,
+                    "startOffset": 1538,
                     "endColumn": 62,
-                    "endOffset": 1479
+                    "endOffset": 1596
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -536,43 +574,22 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 1484,
-                    "endLine": 36,
+                    "startOffset": 1601,
+                    "endLine": 38,
                     "endColumn": 12,
-                    "endOffset": 1770
+                    "endOffset": 1887
                 },
                 "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 191,
+                        "startOffset": 192,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 481
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 37,
-                    "startColumn": 4,
-                    "startOffset": 1775,
-                    "endLine": 39,
-                    "endColumn": 12,
-                    "endOffset": 1930
-                },
-                "from": {
-                    "file": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 522,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 679
+                        "endOffset": 484
                     }
                 }
             }

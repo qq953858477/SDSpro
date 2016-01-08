@@ -20,7 +20,7 @@
 		android:orientation="vertical"
         android:layout_centerVertical="true"
         android:layout_marginLeft="1dp"
-        android:layout_toRightOf="@+id/ll_main_layout_stockinfo" >
+        android:layout_toRightOf="@id/ll_main_layout_stockinfo" >
 
         <LinearLayout
             android:id="@+id/fragment_interest_linearlayout"
@@ -36,7 +36,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="1dp"
             android:orientation="horizontal"
-            android:background="#ffffff" >
+            android:background="#2c2c2c">
         </LinearLayout>
 
     </LinearLayout>

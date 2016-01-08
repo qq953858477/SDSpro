@@ -2,6 +2,7 @@ package com.xinyusoft.sdspro.fragment;
 
 import android.app.Activity;
 import android.app.Fragment;
+import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -32,6 +33,7 @@ import com.xinyusoft.sdspro.R;
 import com.xinyusoft.sdspro.ZXGMoreActivity;
 import com.xinyusoft.sdspro.adapter.StockAdapter;
 import com.xinyusoft.sdspro.bean.Stock;
+import com.xinyusoft.sdspro.dialoginterface.DialogAddStockListener;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -50,6 +52,7 @@ public class StockFragment extends Fragment implements OnClickListener {
     private SwipeMenuListView mListView;
     private StockAdapter adapter;
     private Context context;
+
 
     @Override
     public void onAttach(Activity activity) {
@@ -74,6 +77,9 @@ public class StockFragment extends Fragment implements OnClickListener {
         mListView = (SwipeMenuListView) view.findViewById(R.id.fragment_stock_list);
         TextView zxg_delete_tv = (TextView) view.findViewById(R.id.zxg_delete_tv);
         ImageView zxg_more = (ImageView) view.findViewById(R.id.zxg_more);
+        TextView tv_add = (TextView) view.findViewById(R.id.stockinfo_tv_add);
+
+        tv_add.setOnClickListener(this);
         zxg_more.setOnClickListener(this);
         zxg_delete_tv.setOnClickListener(this);
     }
@@ -155,6 +161,12 @@ public class StockFragment extends Fragment implements OnClickListener {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //点击的时候的，设置为选中状态
                adapter.changeSelected(position);
+                FragmentManager fm = getFragmentManager();
+                BuyOrSaleFragment fragment = (BuyOrSaleFragment) fm.findFragmentById(R.id.fragment_buy_sale_linearlayout);
+                Stock s = (Stock) parent.getItemAtPosition(position);
+                fragment.changeStock(s.getStockName(), s.getStockCode());
+                InterestFragment jf  = (InterestFragment) fm.findFragmentById(R.id.fragment_interest_linearlayout);
+                jf.sortList(s.getStockName());
             }
         });
     }
@@ -230,6 +242,17 @@ public class StockFragment extends Fragment implements OnClickListener {
                 Intent i = new Intent(getActivity(), ZXGMoreActivity.class);
 
                 startActivity(i);
+                break;
+            case R.id.stockinfo_tv_add:
+                IncreaseStockDialog dialog = new IncreaseStockDialog();
+                dialog.setDialogListener(new DialogAddStockListener() {
+                    @Override
+                    public void add(Stock stock) {
+                        listInfo.add(stock);
+                        adapter.notifyDataSetChanged();
+                    }
+                });
+				dialog.show(getFragmentManager(), null);
                 break;
             default:
                 break;

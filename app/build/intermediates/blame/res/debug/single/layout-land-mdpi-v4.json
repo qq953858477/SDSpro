@@ -1,26 +1,26 @@
 [
     {
-        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\activity_main.xml",
-        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\activity_main.xml"
+        "merged": "D:\\studiowork\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\inventory_grid.xml",
+        "source": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\inventory_grid.xml"
     },
     {
-        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\transaction_record.xml",
-        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\transaction_record.xml"
+        "merged": "D:\\studiowork\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\activity_main.xml",
+        "source": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\activity_main.xml"
     },
     {
-        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\activity_login.xml",
-        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\activity_login.xml"
+        "merged": "D:\\studiowork\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\activity_login.xml",
+        "source": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\activity_login.xml"
     },
     {
-        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\buy.xml",
-        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\buy.xml"
+        "merged": "D:\\studiowork\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\buy.xml",
+        "source": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\buy.xml"
     },
     {
-        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\sale.xml",
-        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\sale.xml"
+        "merged": "D:\\studiowork\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\sale.xml",
+        "source": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\sale.xml"
     },
     {
-        "merged": "D:\\Android\\app\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\inventory_grid.xml",
-        "source": "D:\\Android\\app\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\inventory_grid.xml"
+        "merged": "D:\\studiowork\\SDSpro\\app\\build\\intermediates\\res\\merged\\debug\\layout-land-mdpi-v4\\transaction_record.xml",
+        "source": "D:\\studiowork\\SDSpro\\app\\src\\main\\res\\layout-land-mdpi\\transaction_record.xml"
     }
 ]

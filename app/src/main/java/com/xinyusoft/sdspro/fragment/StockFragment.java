@@ -55,7 +55,8 @@ public class StockFragment extends Fragment implements OnClickListener {
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         context = activity;
-        listInfo = getDataList();
+        //listInfo = getDataList();
+        listInfo = new ArrayList<>();
     }
 
     @Override
@@ -180,13 +181,15 @@ public class StockFragment extends Fragment implements OnClickListener {
                     for (int i = 0; i < array.length(); i++) {
                         JSONObject stock = array.getJSONObject(i);
                         Log.i("zzy", "name:" + stock.getString("name"));
+
+                        listInfo.add(new Stock(stock.getString("name"), "000600", 111.2f, 222.1f, 22.1f, 55.3f));
                     }
 
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
 
-                adapter = new StockAdapter(getActivity(), R.layout.item_stock22, listInfo);
+                adapter = new StockAdapter(getActivity(), R.layout.item_stock, listInfo);
                 //mListView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
                 mListView.setAdapter(adapter);
 
@@ -204,7 +207,7 @@ public class StockFragment extends Fragment implements OnClickListener {
 
     private List<Stock> getDataList() {
         List<Stock> list = new ArrayList<Stock>();
-        list.add(new Stock("哈哈股票", "000600", 111.2f, 222.1f, 22.1f, 55.3f));
+
         list.add(new Stock("哈哈444", "000600", 111.2f, 222.1f, 22.1f, 55.3f));
         list.add(new Stock("哈哈555", "000600", 111.2f, 222.1f, 22.1f, 55.3f));
         list.add(new Stock("哈哈666", "000600", 111.2f, 222.1f, 22.1f, 55.3f));

@@ -1,12 +1,12 @@
 package com.xinyusoft.sdspro.adapter;
 
-import com.xinyusoft.sdspro.R;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+
+import com.xinyusoft.sdspro.R;
 
 public class TaoLiAdapter extends BaseAdapter{
 	
@@ -33,6 +33,7 @@ public class TaoLiAdapter extends BaseAdapter{
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {

@@ -53,7 +53,7 @@ public class StockAdapter extends ArrayAdapter<Stock> {
 				@Override
 				public void onClick(View arg0) {
 					Log.i("zzy", "postion:" + position);
-					stockLists.remove(position);
+					stockLists.remove(position);  //现在只是移除
 					isShowDelete = false;
 					StockAdapter.this.notifyDataSetChanged();
 				}

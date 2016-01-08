@@ -41,6 +41,7 @@ public class AutoCompleteStockAdapter extends ArrayAdapter<com.xinyusoft.sdspro.
         this.ctx = ctx;
     }
 
+
     @Override
     public com.xinyusoft.sdspro.bean.AutoCompleteStock getItem(int position) {
         if (cityList != null)

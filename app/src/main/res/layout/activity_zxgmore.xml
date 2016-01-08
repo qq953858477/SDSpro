@@ -4,34 +4,73 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/history_bg"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.xinyusoft.sdspro.ZXGMoreActivity">
 
-    <TextView
-        android:id="@+id/moreactivity_title_tv"
+    <RelativeLayout
+        android:id="@+id/zxg_more_main"
         android:layout_width="match_parent"
-        android:text="22222222222222222222"
-        android:gravity="center"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/zxg_more_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:text="行情" />
+
+        <TextView
+            android:id="@+id/zxg_more_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/white"
+            android:text="返回" />
+
+        <GridView
+            android:id="@+id/moreactivity_more_gv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/zxg_more_title_tv"
+            android:columnWidth="150dp"
+            android:gravity="center"
+            android:horizontalSpacing="5dp"
+            android:numColumns="auto_fit"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp">
+
+        </GridView>
+
+        <GridView
+            android:id="@+id/moreactivity_more_gv_change"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/zxg_more_title_tv"
+            android:columnWidth="150dp"
+            android:gravity="center"
+            android:horizontalSpacing="5dp"
+            android:numColumns="auto_fit"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"
+            android:visibility="gone">
+        </GridView>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/zxg_more_pb"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_height="wrap_content" />
 
-    <GridView
-        android:id="@+id/moreactivity_more_gv"
-        android:layout_width="match_parent"
-        android:layout_below="@id/moreactivity_title_tv"
-        android:numColumns="auto_fit"
-        android:layout_height="match_parent">
-
-    </GridView>
-
-    <GridView
-        android:id="@+id/moreactivity_more_gv_change"
-        android:layout_width="match_parent"
-        android:layout_below="@id/moreactivity_title_tv"
-        android:visibility="gone"
-        android:numColumns="auto_fit"
-        android:layout_height="match_parent">
-
-    </GridView>
 </RelativeLayout>

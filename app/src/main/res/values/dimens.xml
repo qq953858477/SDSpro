@@ -5,4 +5,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="history_font_size">8sp</dimen>
     <dimen name="history_calendar_height">28dp</dimen>
+    <dimen name="stockmore_item_size">100dp</dimen>
 </resources>

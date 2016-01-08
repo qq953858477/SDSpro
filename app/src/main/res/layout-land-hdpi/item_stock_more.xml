@@ -1,32 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/view_yuan_morelist" >
 
-    android:orientation="horizontal" >
-
-    <LinearLayout
-        android:id="@+id/zxg_alldelete_ll"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:visibility="invisible"
-        android:gravity="center" >
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/red_shouyi"
-            android:text="删"
-            android:textColor="@color/red_shouyi" />
-    </LinearLayout>
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="20"
-        android:orientation="vertical" >
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/stockmore_item_size"
+        android:id="@+id/stockmore_ll_stockinfo"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/item_stock_name"
@@ -41,28 +24,28 @@
             android:id="@+id/item_stock_code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
             android:gravity="center"
-            android:paddingTop="2dp"
             android:text="0006000"
             android:textColor="@color/fixed_font_color"
-            android:textSize="8sp" />
+            android:textSize="@dimen/history_font_size" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
                 android:layout_weight="1"
-                android:orientation="vertical"
-                android:paddingTop="5dp" >
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -70,16 +53,14 @@
                         android:layout_marginLeft="3dp"
                         android:text="@string/item_stock_allcount"
                         android:textColor="@color/fixed_font_color"
-                        android:textSize="8sp" >
-                    </TextView>
+                        android:textSize="@dimen/history_font_size" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="50.44万股"
                         android:textColor="@color/change_font_color"
-                        android:textSize="8sp" >
-                    </TextView>
+                        android:textSize="@dimen/history_font_size" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -87,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="4dp"
                     android:layout_marginTop="11dp"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -95,39 +76,60 @@
                         android:layout_marginLeft="3dp"
                         android:text="@string/item_stock_jiaoyilliang"
                         android:textColor="@color/fixed_font_color"
-                        android:textSize="8sp" >
-                    </TextView>
+                        android:textSize="@dimen/history_font_size" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="130.44万"
                         android:textColor="@color/change_font_color"
-                        android:textSize="8sp" >
-                    </TextView>
+                        android:textSize="@dimen/history_font_size" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="11dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="买入价:"
+                        android:textColor="@color/fixed_font_color"
+                        android:textSize="@dimen/history_font_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12.77"
+                        android:textColor="@color/change_font_color"
+                        android:textSize="@dimen/history_font_size" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:paddingLeft="4dp"
-                android:paddingTop="5dp" >
+                android:paddingLeft="4dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/item_stock_shizhi"
                         android:textColor="@color/fixed_font_color"
-                        android:textSize="8sp" >
-                    </TextView>
+                        android:textSize="@dimen/history_font_size" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -135,37 +137,74 @@
                         android:layout_marginLeft="3dp"
                         android:text="50.45千万"
                         android:textColor="@color/change_font_color"
-                        android:textSize="8sp" >
-                    </TextView>
+                        android:textSize="@dimen/history_font_size" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/item_stock_yikui"
                         android:textColor="@color/fixed_font_color"
-                        android:textSize="8sp" />
+                        android:textSize="@dimen/history_font_size" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="#cc4040"
-                        android:paddingBottom="3dp"
-                        android:paddingLeft="3dp"
-                        android:paddingRight="3dp"
-                        android:paddingTop="3dp"
+                        android:padding="3dp"
                         android:text="+5.234千万"
                         android:textColor="@android:color/white"
-                        android:textSize="8sp" />
+                        android:textSize="@dimen/history_font_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="11dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="现价:"
+                        android:textColor="@color/fixed_font_color"
+                        android:textSize="@dimen/history_font_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12.77"
+                        android:textColor="@color/change_font_color"
+                        android:textSize="@dimen/history_font_size" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/stockmore_ll_hq"
+        android:layout_height="@dimen/stockmore_item_size"
+        android:gravity="center"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2222" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2211111222" />
+    </LinearLayout>
+
+</RelativeLayout>

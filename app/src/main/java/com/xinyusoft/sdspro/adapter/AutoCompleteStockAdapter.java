@@ -140,8 +140,8 @@ public class AutoCompleteStockAdapter extends ArrayAdapter<com.xinyusoft.sdspro.
                         JSONObject stock = array.getJSONObject(i);
                         Log.i("zzy", "name:" + stock.getString("name") + "----symbol:" + stock.getString("symbol"));
                         dataList.add(new com.xinyusoft.sdspro.bean.AutoCompleteStock(stock.getString("name"), stock.getString("symbol")));
-                        latch.countDown();
                     }
+                    latch.countDown();
                 } catch (JSONException e) {
                     e.printStackTrace();
                     latch.countDown();
